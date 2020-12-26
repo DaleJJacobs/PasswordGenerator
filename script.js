@@ -44,13 +44,14 @@ function generatePassword() {
 
   //  Creation of empty array to plug in choices for characters of new password based on user input
   var possibleChoices = [];
+  var passWORD = [];
   var counter = 0;
   if (upperCase) {
     //add upperCase array to possibleChoices array, and a random upper case character to new pasword
     possibleChoices = possibleChoices.concat(alphaUpper);
     var index = Math.floor(Math.random() * alphaUpper.length);
     counter += 1;
-    possibleChoices.push(alphaUpper[index]);
+    passWORD.push(alphaUpper[index]);
     console.log('Uppercase', possibleChoices);
   }
   if (lowerCase) {
@@ -58,7 +59,7 @@ function generatePassword() {
     possibleChoices = possibleChoices.concat(alphaLower);
     var index = Math.floor(Math.random() * alphaLower.length);
     counter += 1;
-    possibleChoices.push(alphaLower[index]);
+    passWORD.push(alphaLower[index]);
     console.log("Lowercase", possibleChoices);
   }
   if (spChar) {
@@ -66,7 +67,7 @@ function generatePassword() {
     possibleChoices = possibleChoices.concat(specialChar);
     var index = Math.floor(Math.random() * specialChar.length);
     counter += 1;
-    possibleChoices.push(specialChar[index]);
+    passWORD.push(specialChar[index]);
     console.log('special characters', possibleChoices);
   }
   if (numChar) {
@@ -74,11 +75,11 @@ function generatePassword() {
     possibleChoices = possibleChoices.concat(number);
     var index = Math.floor(Math.random() * number.length);
     counter += 1;
-    possibleChoices.push(number[index]);
+    passWORD.push(number[index]);
     console.log('numbers', possibleChoices);
   }
   // Creation of the new password, randomly picked characters from the new array at the lenght designated by the user, then writing that new password to the password ID in the HTML
-  var passWORD = "";
+  
   for (var i = 1; i <= confirmLength; i++) {
     var index = Math.floor(Math.random() * possibleChoices.length);
     passWORD += possibleChoices[index];

@@ -1,5 +1,7 @@
 Password Generator:
 
+https://dalejjacobs.github.io/PasswordGenerator/
+
 I utilized the .css and .html provided with miniscule changes.  I changed the generate button background to green to make it my own :)
 
 In my javascript, I kept things as simple as I could. 

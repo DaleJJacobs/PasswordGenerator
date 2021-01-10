@@ -12,5 +12,5 @@ I established arrays of the possilbe characters for the new password.  I prompte
   
 
 
-[![Screen-Shot-2020-12-26-at-1-43-07-PM.png](https://i.postimg.cc/XJ1mdPdn/Screen-Shot-2020-12-26-at-1-43-07-PM.png)](https://postimg.cc/dkd5K45f)
+[![Screen-Shot-2021-01-10-at-11-57-23-AM.png](https://i.postimg.cc/639GyhJZ/Screen-Shot-2021-01-10-at-11-57-23-AM.png)](https://postimg.cc/Jy2hFZh7)
 
